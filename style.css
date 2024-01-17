@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131720;
+  font-family: sans-serif;
+  color: white;
+}
+
+p {
+  font-weight: normal; /* Set the font-weight to normal (not bold) */
+  font-size: medium;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #131720;
+  padding: 10px;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+form {
+  background-color: #151f30;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+
+.thumbnail {
+  width: 100%;
+  /* height: auto; */
+  border-radius: 19px;
+}
+
+.thumbnail2 {
+  /* height: 50%; */
+  width: 50%;
+  border-radius: 19px;
+}
+.container {
+  display: flex; /* Use flexbox to position sections side by side */
+}
+
+section {
+  width: 100%;
+  transition: width 0.8s ease; /* Add any other desired styles for the width transition here */
+}
+
+#section {
+  
+}
+.sec {
+  display: none;
+  padding: 10px 10px;
+  width: 50%;
+ }
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+.width-50 {
+  width: 50%; /* Add any other desired styles for the 50% width here */
+}
+
+.card {
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: #151f30;
+  /* height: 300px */
+}
+
+.card2 {
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: #151f30;
+  /* height: 300px */
+}
+
+#title {
+  max-height: 40px; /* Set your desired max height */
+  /* overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Truncate text to fit in the max height */
+}
+
+.scrollable {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.scrollable:hover {
+  overflow: auto;
+  white-space: normal;
+  text-overflow: clip;
+  cursor: text;
+}
+
+.common-input-style {
+  all: initial;
+  color: black;
+  background-color: white;
+  padding: 8px;
+  border-radius: 6px;
+  /* Add more common styles as needed */
+}
